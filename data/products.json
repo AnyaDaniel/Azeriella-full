@@ -1,0 +1,97 @@
+[
+  {
+    "id": "p_kid_ankara_set_01",
+    "slug": "ankara-two-piece-set-kids-sunrise",
+    "title": "Ankara Two‑Piece Set (Kids) — Sunrise",
+    "priceCents": 6500,
+    "currency": "CAD",
+    "gender": "unisex",
+    "ageRange": "2-8",
+    "sizes": [
+      "2T",
+      "3T",
+      "4T",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "category": "kids",
+    "collection": "Ankara",
+    "tags": [
+      "best-seller",
+      "new"
+    ],
+    "image": "/images/placeholder.jpg",
+    "description": "Bright, breathable cotton set inspired by modern Ankara prints. Perfect for playdays and special days."
+  },
+  {
+    "id": "p_kid_dashiki_dress_02",
+    "slug": "dashiki-dress-kids-ocean",
+    "title": "Dashiki Dress (Kids) — Ocean",
+    "priceCents": 7200,
+    "currency": "CAD",
+    "gender": "girls",
+    "ageRange": "9-14",
+    "sizes": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "category": "kids",
+    "collection": "Dashiki",
+    "tags": [
+      "editor-pick"
+    ],
+    "image": "/images/placeholder.jpg",
+    "description": "A comfy dashiki-inspired dress with a bold neckline pattern and easy movement."
+  },
+  {
+    "id": "p_adult_ankara_shirt_03",
+    "slug": "ankara-shirt-adult-midnight",
+    "title": "Ankara Shirt (Adult) — Midnight",
+    "priceCents": 9800,
+    "currency": "CAD",
+    "gender": "men",
+    "ageRange": "adult",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "adults",
+    "collection": "Ankara",
+    "tags": [
+      "new"
+    ],
+    "image": "/images/placeholder.jpg",
+    "description": "A tailored Ankara shirt with a clean silhouette—wear it casual or dress it up."
+  },
+  {
+    "id": "p_adult_wrap_dress_04",
+    "slug": "wrap-dress-adult-flame",
+    "title": "Wrap Dress (Adult) — Flame",
+    "priceCents": 14500,
+    "currency": "CAD",
+    "gender": "women",
+    "ageRange": "adult",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "adults",
+    "collection": "Kente",
+    "tags": [
+      "best-seller"
+    ],
+    "image": "/images/placeholder.jpg",
+    "description": "A flattering wrap dress with African-inspired color blocking. Soft, confident, elegant."
+  }
+]

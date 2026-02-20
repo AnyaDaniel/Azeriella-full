@@ -13,7 +13,7 @@ export default function ProductCard({ p }: { p: Product }) {
         <div className="text-xs text-azriella-pink font-bold uppercase tracking-wide">{p.collection} • {p.category}</div>
         <div className="mt-2 font-black leading-tight text-azriella-navy group-hover:text-azriella-pink transition-colors">{p.title}</div>
         <div className="mt-2 font-black text-lg bg-gradient-to-r from-azriella-pink to-azriella-navy bg-clip-text text-transparent">{formatMoney(p.priceCents, p.currency)}</div>
-        <div className="mt-2 text-xs text-neutral-600">Sizes: {p.sizes.slice(0, 4).join(", ")}{p.sizes.length > 4 ? "…" : ""}</div>
+        <div className="mt-2 text-xs text-neutral-600">Sizes: {p.sizes.slice(0, 8).join(", ")}{p.sizes.length > 8 ? "…" : ""}</div>
       </div>
     </Link>
   );

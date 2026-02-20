@@ -4,7 +4,7 @@ import ProductCard from "@/components/ProductCard";
 
 export default function HomePage() {
   const products = getAllProducts();
-  const featured = products.slice(0, 4);
+  const featured = products.slice(0, 8);
 
   return (
     <div className="py-10 space-y-16">
@@ -42,6 +42,7 @@ export default function HomePage() {
           </div>
 
           <div className="rounded-2xl overflow-hidden border-2 border-azriella-pink/30 shadow-lg">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src="/images/hero1.jpg" 
               alt="Azriella African Fashion Collection" 
@@ -81,7 +82,7 @@ export default function HomePage() {
         <div className="rounded-2xl border-2 border-azriella-navy/20 bg-white p-6 hover:shadow-lg transition-shadow">
           <div className="text-3xl mb-3">🎨</div>
           <div className="font-black text-azriella-navy text-lg">African Prints</div>
-          <p className="text-sm text-neutral-600 mt-2">Ankara, Dashiki, Kente-inspired designs that pop.</p>
+          <p className="text-sm text-neutral-600 mt-2">Ankara, Bumper Jackets, Kente-inspired designs that pop.</p>
         </div>
         <div className="rounded-2xl border-2 border-azriella-pink/20 bg-white p-6 hover:shadow-lg transition-shadow">
           <div className="text-3xl mb-3">⚡</div>

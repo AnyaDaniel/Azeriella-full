@@ -1,15 +1,17 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, use } from "react";
 import { getAllProducts } from "@/lib/products";
 import { formatMoney } from "@/lib/money";
 import Quantity from "@/components/Quantity";
 import { addToCart, loadCart, saveCart } from "@/lib/cart";
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
+export default function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = use(params);
+  
   const product = useMemo(
-    () => getAllProducts().find(p => p.slug === params.slug),
-    [params.slug]
+    () => getAllProducts().find(p => p.slug === slug),
+    [slug]
   );
 
   const [size, setSize] = useState(product?.sizes?.[0] ?? "");

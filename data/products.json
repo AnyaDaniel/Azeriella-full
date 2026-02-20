@@ -3,7 +3,7 @@
     "id": "p_kid_ankara_set_01",
     "slug": "ankara-two-piece-set-kids-sunrise",
     "title": "Ankara Two‑Piece Set (Kids) — Sunrise",
-    "priceCents": 6500,
+    "priceCents": 2999,
     "currency": "CAD",
     "gender": "unisex",
     "ageRange": "2-8",
@@ -22,14 +22,14 @@
       "best-seller",
       "new"
     ],
-    "image": "/images/placeholder.jpg",
+    "image": "/images/Bumper1.jpg",
     "description": "Bright, breathable cotton set inspired by modern Ankara prints. Perfect for playdays and special days."
   },
   {
     "id": "p_kid_dashiki_dress_02",
     "slug": "dashiki-dress-kids-ocean",
     "title": "Dashiki Dress (Kids) — Ocean",
-    "priceCents": 7200,
+    "priceCents": 2999,
     "currency": "CAD",
     "gender": "girls",
     "ageRange": "9-14",
@@ -46,14 +46,14 @@
     "tags": [
       "editor-pick"
     ],
-    "image": "/images/placeholder.jpg",
+    "image": "/images/hero2.jpg",
     "description": "A comfy dashiki-inspired dress with a bold neckline pattern and easy movement."
   },
   {
     "id": "p_adult_ankara_shirt_03",
     "slug": "ankara-shirt-adult-midnight",
     "title": "Ankara Shirt (Adult) — Midnight",
-    "priceCents": 9800,
+    "priceCents": 2999,
     "currency": "CAD",
     "gender": "men",
     "ageRange": "adult",
@@ -68,14 +68,14 @@
     "tags": [
       "new"
     ],
-    "image": "/images/placeholder.jpg",
+    "image": "/images/Bumper2.jpg",
     "description": "A tailored Ankara shirt with a clean silhouette—wear it casual or dress it up."
   },
   {
     "id": "p_adult_wrap_dress_04",
     "slug": "wrap-dress-adult-flame",
     "title": "Wrap Dress (Adult) — Flame",
-    "priceCents": 14500,
+    "priceCents": 2999,
     "currency": "CAD",
     "gender": "women",
     "ageRange": "adult",
@@ -91,7 +91,7 @@
     "tags": [
       "best-seller"
     ],
-    "image": "/images/placeholder.jpg",
+    "image": "/images/hero3.jpg",
     "description": "A flattering wrap dress with African-inspired color blocking. Soft, confident, elegant."
   }
 ]

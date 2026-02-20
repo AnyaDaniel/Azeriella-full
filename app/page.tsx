@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className="grid gap-8 md:grid-cols-2 md:items-center">
           <div>
             <div className="inline-flex items-center gap-2 text-xs font-bold text-azriella-navy bg-azriella-pink/10 px-3 py-1 rounded-full">
-              🇨🇦 CANADA • KIDS-FIRST • AFRICAN PRINTS
+               KIDS-FIRST • AFRICAN PRINTS
             </div>
             <h1 className="mt-4 text-4xl md:text-6xl font-black leading-tight">
               <span className="bg-gradient-to-r from-azriella-pink to-azriella-navy bg-clip-text text-transparent">
@@ -41,12 +41,12 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="rounded-2xl bg-gradient-to-br from-azriella-pink/20 to-azriella-navy/20 aspect-[4/3] flex items-center justify-center border-2 border-azriella-pink/30">
-            <div className="text-center p-6">
-              <div className="text-6xl mb-4">✨</div>
-              <p className="text-azriella-navy font-bold">Hero Banner</p>
-              <p className="text-sm text-neutral-600">Showcase your beautiful collection</p>
-            </div>
+          <div className="rounded-2xl overflow-hidden border-2 border-azriella-pink/30 shadow-lg">
+            <img 
+              src="/images/hero1.jpg" 
+              alt="Azriella African Fashion Collection" 
+              className="w-full h-full object-cover aspect-[4/3]"
+            />
           </div>
         </div>
       </section>
